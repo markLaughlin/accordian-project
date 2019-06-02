@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component closes the first section and opens any clicked section 1`] = `
+<div
+  className="mainDiv"
+>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+  <div>
+    Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+  </div>
+</div>
+`;
+
+exports[`Accordian Component renders empty given no sections 1`] = `
+<div
+  className="mainDiv"
+>
+  <ul />
+</div>
+`;
+
+exports[`Accordian Component renders the first section by default 1`] = `
+<div
+  className="mainDiv"
+>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+  <div>
+    This is the message
+  </div>
+</div>
+`;
